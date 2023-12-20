@@ -9682,3 +9682,18 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .horizontal-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .horizontal-list li {
+      margin-right: 50px;
+      margin-bottom: 10px;
+      position: relative;
+  }
+
